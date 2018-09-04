@@ -1,0 +1,42 @@
+<!--
+document.write("<div class='news news-left'>");
+document.write("<div class='news-intro'>");
+document.write("<img src='http://static-online.zhaogang.com/project/ued/mall/local/Resources/index/2.0/newimages2.0/news-logo.png?version=1533895808278' alt=''>");
+document.write("<p class='imgnews-detail'>资讯、新闻行业观点  </p>");
+document.write("</div>");
+document.write("<div class='news-content'>");
+document.write("<div class='news-image'>");
+document.write("<a href='http://news.zhaogang.com/2018/0802/1151.html' target='_blank'><img src='http://home.zhaogang.com/uploads/allimg/180802/1_0P21613432205.jpg' alt=''></a>");
+document.write("</div>");
+document.write("<div class='news-text'>");
+document.write("<p class='news-title'>");
+document.write("<a href='http://news.zhaogang.com/2018/0802/1151.html' target='_blank' title='找钢网王东：独角兽的中国故事或刚开始|人民日报关注独角兽快速成长 '>找钢网王东：独角兽的中国故事或...</a>");
+document.write("</p>");
+document.write("<p class='news-detail'><a href='http://news.zhaogang.com/2018/0802/1151.html' target='_blank'>找钢网创始人兼CEO王东在接受“人民日报”采访时表示：“从2012年开始，中国经济增速换挡，传统的投资拉动型增长模式开</a></p>");
+document.write("</div>");
+document.write("</div>");
+document.write("</div>");
+
+document.write("<div class='news news-right'>");
+document.write("<div class='news-intro'>");
+document.write("<a href='http://news.zhaogang.com/' target='_blank'>");
+document.write("<p class='moredetails news-moredetails'>查看更多</p>");
+document.write("</a>");
+document.write("<a href='/help/About_14.html' target='_blank'>");
+document.write("<img src='http://static-online.zhaogang.com/project/ued/mall/local/Resources/index/2.0/newimages2.0/morenews.png?version=1533895808278' alt='' class='moredetails news-more'>");
+document.write("</a>");
+document.write("</div>");
+document.write("<div class='news-content'>");
+document.write("<div class='news-image'>");
+document.write("<a href='http://news.zhaogang.com/2018/0802/1152.html' target='_blank'><img src='http://home.zhaogang.com/uploads/allimg/180802/1_0P21613432509.jpg' alt=''></a>");
+document.write("</div>");
+document.write("<div class='news-text'>");
+document.write("<p class='news-title'>");
+document.write("<a href='http://news.zhaogang.com/2018/0802/1152.html' target='_blank' title='找钢网郎永淳：拥抱新商业时代，工业电商将如何发力？'>找钢网郎永淳：拥抱新商业时代，...</a>");
+document.write("</p>");
+document.write("<p class='news-detail'><a href='http://news.zhaogang.com/2018/0802/1152.html' target='_blank'>5月13日，在由网易财经主办的“2018网易经济学家年会·哀牢山论坛”上，找钢网首席战略官兼高级副总裁郎永淳出席发表演讲</a></p>");
+document.write("</div>");
+document.write("</div>");
+document.write("</div>");
+
+-->

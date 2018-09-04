@@ -1,0 +1,23 @@
+<!--
+document.write("<div class='map-right' id='stockMonitoring'>");
+document.write("<div class='map-tip'>");
+document.write("<img src='http://static-online.zhaogang.com/project/ued/mall/local/Resources/index/2.0/newimages2.0/store.png' alt=''/>");
+document.write("<div class='tip-title'>");
+document.write("<a href='http://hangqing.zhaogang.com/zaobao/2018/0831/1357.html' target='_blank' title='8月31日找钢早报'>8月31日找钢早报</a>");
+
+document.write("</div>");
+document.write("</div>");
+document.write("<ul class='map-list'>");
+document.write("<li><span class='tag'>[");
+document.write("库存分析");
+document.write("]</span><a href='http://hangqing.zhaogang.com/kucunfenxi/2018/0830/1355.html' target='_blank' title='库存分析：8月第5周​社库厂库分化扩大，区域特性愈加显著'>库存分析：8月第5周​社库厂库分化...</a></li>");
+document.write("<li><span class='tag'>[");
+document.write("行情早报");
+document.write("]</span><a href='http://hangqing.zhaogang.com/zaobao/2018/0830/1354.html' target='_blank' title='8月30日找钢早报'>8月30日找钢早报...</a></li>");
+document.write("<li><span class='tag'>[");
+document.write("行情早报");
+document.write("]</span><a href='http://hangqing.zhaogang.com/zaobao/2018/0829/1353.html' target='_blank' title='8月29日找钢早报'>8月29日找钢早报...</a></li>");
+
+document.write("</ul>");
+document.write("</div>");
+-->

