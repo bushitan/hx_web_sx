@@ -1,0 +1,82 @@
+
+/* base基础*/
+.xx_subtitle{
+    text-align: right;font-size:16pt;font-weight:bolder;
+}
+
+
+/*1.1 热点*/
+
+.section-map .map-full {
+    float: left;
+    width: 1180px;
+    height: 206px;
+    padding: 20px;
+    background: #fff;
+}
+
+.section-map .map-3_1 {
+    float: left;
+    width: 380px;
+    height: 206px;
+    padding: 20px;
+    background: #fff;
+}
+
+.section-map .map-4_1 {
+    float: left;
+    width: 280px;
+    height: 206px;
+    padding: 20px;
+    background: #fff;
+}
+.section-map .map-4_2 {
+    float: left;
+    width: 580px;
+    height: 206px;
+    padding: 20px;
+    background: #fff;
+}
+.xx_hot{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/*菜单*/
+
+.xx_menu{
+    display:flex
+}
+
+/*bannerleft-dlWrap*/
+.bannerleft-dlWrap {
+     float: none !important;
+    border-right: 1px solid #f2f2f2;
+    padding: 0 30px 0 16px;
+    margin: 10px 0;
+    width: 586px;
+}
+
+
+
+/*热点*/
+
+
+
+
+
+
+/*数据*/
+.section-map .map-half {
+    float: left;
+    width: 580px;
+    height: 206px;
+    padding: 20px;
+    background: #fff;
+}
+.space {
+    margin-right:20px;
+}
