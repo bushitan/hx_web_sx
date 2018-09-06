@@ -1,8 +1,5 @@
 
 /* base基础*/
-.xx_subtitle{
-    text-align: right;font-size:16pt;font-weight:bolder;
-}
 
 
 /*1.1 热点*/
@@ -41,6 +38,87 @@
     display: flex;
     justify-content: space-around;
 }
+.xx_cover{
+    width: 40%;
+    font-size: 11pt;
+}
+
+
+    /*重点标题方式文章列表*/
+    .xx_cover_main{
+        font-size: 13pt;
+        font-weight: bolder;
+    }
+    .xx_cover_main li{
+        padding-bottom: 3px;
+        width:100%;
+        overflow: hidden;    text-overflow:ellipsis;    white-space: nowrap;
+    }
+    /*两段方式文章列表*/
+    .xx_cover_half{
+        font-size: 9pt;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:wrap ;
+    }
+    .xx_cover_half li{
+        line-height: 18px;
+        padding-left: 25px;
+        width:270px;
+        overflow: hidden;    text-overflow:ellipsis;    white-space: nowrap;}
+
+    /*一般标题方式文章列表*/
+    .xx_cover_normal{
+        font-size: 9pt;
+        line-height: 25px;
+    }
+    .xx_cover_normal li{
+        display: flex;
+        justify-content: space-between;
+    }
+    .xx_cover_normal label{
+        overflow: hidden;    text-overflow:ellipsis;    white-space: nowrap;
+    }
+    .xx_cover_normal span{
+        flex-basis: 100px;
+        text-align: right;
+    }
+
+    /*主标题*/
+    .xx_title{
+        line-height: 30px;
+        font-size: 15pt;
+        font-weight: bolder;
+    }
+    .xx_topic_title{
+        line-height: 48px;
+        font-size: 20pt;
+        font-weight: bolder;
+        background-color: #EFEFEF;
+        z-index: 999;
+    }
+     .xx_title_line {
+        border-top: 1px solid #DFDFDF;
+        position: absolute;
+        top: 24px;
+        width: 100%;
+    }
+
+    /*子标题*/
+    .xx_subtitle{
+        line-height: 40px;
+        display: flex;
+        justify-content: center;
+        font-size:11pt;
+    }
+    .xx_subtitle li{
+        padding: 0 5px;
+    }
+    .xx_subtitle .select{
+        padding: 0 5px;
+        font-size:13pt;
+        font-weight:bolder;
+    }
 
 
 
