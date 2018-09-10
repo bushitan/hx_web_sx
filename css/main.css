@@ -1,5 +1,28 @@
 
+/* 原网站颜色*/
+.navigation-bottom .classification .classification-text,
+.navigation-top .searchBar button ,
+.section-head .section-banner .banner-me .me-login .login-action .login{
+    background: #f6ab00;
+}
+.navigation-top .searchBar .searchBar-input input{
+    border: 2px solid #f6ab00;
+}
+.section-head .section-banner .banner-me .me-login .login-action a{
+    border: 1px solid #f6ab00;
+}
+.section-head .section-banner .banner-me .me-login .login-action .register,
+.navigation-bottom .linkNav li.on a ,
+.navigation-top .viewpoint-wrap .viewpoint-text{
+    color: #f6ab00;
+}
+.navigation-bottom .linkNav li.on {
+    border-color: #f6ab00;
+}
+
+
 /* base基础*/
+
 
 
 /*1.1 热点*/
@@ -37,7 +60,13 @@
 .xx_hot{
     display: flex;
     justify-content: space-around;
+    padding-bottom:10px;
 }
+.xx_hot div{
+    flex-basis: 90px;
+}
+
+
 .xx_cover{
     width: 40%;
     font-size: 11pt;
@@ -96,11 +125,12 @@
         font-weight: bolder;
         background-color: #EFEFEF;
         z-index: 999;
+        /*color: #f6ab00;*/
     }
      .xx_title_line {
         border-top: 1px solid #DFDFDF;
         position: absolute;
-        top: 24px;
+        top: 0px;
         width: 100%;
     }
 
@@ -118,6 +148,7 @@
         padding: 0 5px;
         font-size:13pt;
         font-weight:bolder;
+        color: #f6ab00;
     }
 
 
@@ -158,3 +189,9 @@
 .space {
     margin-right:20px;
 }
+
+/*footer 菜单*/
+#mall_footer .advantage li {
+    width: 10% !important;
+}
+
