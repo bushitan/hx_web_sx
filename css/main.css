@@ -26,6 +26,10 @@ body{
     background-color: #f0f3ef !important;
 }
 
+/*∂•≤ø≤Àµ•*/
+.navigation-bottom .linkNav li {
+    margin: 0 15px 0 23px !important;
+}
 
 
 
@@ -62,6 +66,26 @@ body{
     height: 378px;
     padding-top: 10px;
 }
+.section-head-wrap .swiper-slide img {
+    position: relative !important;
+    width: 100%;
+    height: 100%;
+    left: 0 !important;
+    margin-left: 0 !important;
+}
+
+.xx_icon__new{
+    width: 23px;
+    height: 23px;
+}
+.xx_icon{
+    width: 23px;
+    height: 23px;
+}
+
+
+
+
     /*”“≤‡≤Àµ•*/
 .login , .register{
     border-radius: 8px;
