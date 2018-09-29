@@ -1,0 +1,28 @@
+
+.tab{
+    /*width: 1180px;*/
+    /*padding-top: 5px;*/
+}
+.tab .title{
+    /*flex-basis: 210px;*/
+    line-height: 42px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    background: #f6ab00;
+}
+
+.tab .node{
+    padding: 0 2px;
+    margin: 0 15px 0 23px
+    /*margin: 0 35px 0 23px;*/
+    border-bottom: 2px solid transparent;
+    height: 41px;
+    line-height: 40px;
+    text-align: center;
+}
+.tab a{
+        color: #333;
+    font-size: 14px;
+    position: relative;
+}

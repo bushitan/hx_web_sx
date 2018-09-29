@@ -1,0 +1,40 @@
+
+.news {
+    padding-top: 10px;
+
+}
+
+.news .left,.news .center,.news .right ,.news .hot{
+    min-height: 206px;
+}
+
+.news .artilce{
+    width: 255px;
+    margin: auto;
+    padding: 10px;
+}
+
+.news .title{
+    line-height: 30px;
+    font-size: 15pt;
+    font-weight: bolder;
+}
+.news .content{
+    display: flex;
+    justify-content: space-between;
+
+    font-size: 0.75em;
+    line-height: 25px;
+}
+.news .content label{
+    flex-basis: 170px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+.news .hot{
+   width: 570px;
+    margin: auto;
+}
