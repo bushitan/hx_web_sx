@@ -1,0 +1,31 @@
+
+
+.xx_flex, .xx_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.xx_width{
+    width: 1180px;
+    height: auto;
+}
+.header{
+
+        background: #e7e7e7;
+}
+
+.header .menu {
+    justify-content: flex-end;
+    color: #666;
+    line-height:30px;
+    cursor: pointer;
+    /*border: 1p    x solid transparent;*/
+    /*border-width: 0 1px;*/
+}
+.header .menu div {
+    padding: 0 15px 0 10px;
+    font-size: 0.75em;
+
+}
+.header .menu div:hover {background:#fff;}
+
