@@ -23,17 +23,19 @@
 /*×ó±ßÀ¸*/
 .swiper  .node{
     position: relative;
-    padding: 9px 0 8px 20px;
+    /*padding: 9px 0 8px 20px;*/
+    height: 61px;
 }
 
 .swiper .title , .swiper .content{
     width: 120px;
-    padding-left: 20px;
+    padding-left: 55px;
     font-size: 0.9em;
 }
 .swiper .title{
     color: #999;
-    padding-bottom: 6px;
+    padding-top: 6px ;
+    padding-bottom: 6px ;
 }
 
 /*.swiper .node:hover{*/

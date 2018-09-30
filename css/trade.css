@@ -1,0 +1,15 @@
+.trade{}
+
+.trade .title{
+    padding: 15px 15px 0;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 25px;
+}
+
+.trade .content{
+    padding: 0 15px ;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 25px;
+}
