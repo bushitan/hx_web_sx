@@ -14,6 +14,7 @@ body{
     margin: 0;
     padding: 0;
     background-color: #f0f3ef ;
+    font-family: Arial,'Hiragino Sans GB',"Microsoft Yahei","Î¢ÈíÑÅºÚ",Tahoma,Helvetica,STHeiti;
 }
 .xx_flex{
     display: flex;
@@ -22,10 +23,12 @@ body{
 }
 .xx_box{
     width: 1180px;
-    height: auto;
-    display: flex;
-    align-items: center;
-    position: relative;
+    margin: auto;
+    /*width: 1180px;*/
+    /*height: auto;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*position: relative;*/
 }
 .xx_end{
     justify-content: flex-end;
@@ -36,4 +39,12 @@ body{
 
 .xx_bg_white{
     background-color: #fff;
+}
+
+.xx_pd_15{
+    padding:15px;
+}
+
+.xx_border_gray{
+    border-top:1px solid #DFDFDF;
 }

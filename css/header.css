@@ -16,11 +16,11 @@
 
 }
 .header .menu .move:hover {background:#fff;}
-.father:hover .header_help{    display:block ;}
+.header .father:hover .header_help{    display:block ;}
 .header_help {
     display: none;
     position: absolute;
-    top: 18px;
+    /*top: 18px;*/
     right: 0;
     text-align: left;
     background: #fff;
@@ -34,6 +34,10 @@
     max-height: 165px;
     overflow: auto;
 }
+.header .father{
+    position: relative;
+}
+
 .header_help li {
     height: 24px;
     line-height: 24px;

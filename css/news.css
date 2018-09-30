@@ -1,7 +1,17 @@
 
+
+
+
+
+.xx_bound{
+    width: 1180px;
+    margin: auto;
+}
+
+
+
 .news {
     padding-top: 10px;
-
 }
 
 .news .left,.news .center,.news .right ,.news .hot{
@@ -37,4 +47,43 @@
 .news .hot{
    width: 570px;
     margin: auto;
+}
+
+.news .hot .title{
+    font-size: 1em;
+    padding:15px 15px 5px;
+}
+
+.news .mark{
+    color:#fff;
+    background-color:#f6ab00 ;
+    padding: 3px 5px;
+    margin: 5px;
+}
+.news .hot .content{
+    padding:5px 15px 15px;
+}
+.news .hot .content div{
+    font-size: 0.75em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.news .ad{
+    padding:15px;
+}
+
+
+.news .node {
+    letter-spacing: 0em !important;
+    height: 206px;
+}
+.news .w_1_3{
+    width:378px ;
+}
+.news .space{
+    /*width: 255px;*/
+    margin: auto;
+    padding: 10px;
 }

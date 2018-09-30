@@ -7,6 +7,9 @@
     flex-basis: 210px;
 }
 .search .tool{
+    /*width: 520px;*/
+    /*height: 400px;*/
+    /*margin: 40px auto 0;*/
     display: flex;
 }
 .search input {
