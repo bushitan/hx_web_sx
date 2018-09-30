@@ -6,6 +6,7 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 }
 a, img {
     outline: 0;
+    color: #000 ;
 }
 .btns:hover, .btns_info:hover, a {
     text-decoration: none;
@@ -36,3 +37,5 @@ body{
 .xx_w_280{    width: 280px;}
 .xx_h_206{    height: 206px;}
 .xx_h_120{    height: 120px;}
+
+
