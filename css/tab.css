@@ -4,17 +4,20 @@
     /*padding-top: 5px;*/
 }
 .tab .title{
-    /*flex-basis: 210px;*/
+    width: 220px;
     line-height: 42px;
     color: #fff;
     font-size: 16px;
     text-align: center;
     background: #f6ab00;
 }
-
+.tab .sub_title{
+    width: 960px;
+}
 .tab .node{
-    padding: 0 2px;
-    margin: 0 15px 0 23px
+    float: left;
+    padding: 0 16px;
+    /*margin: 0 15px 0 23px*/
     /*margin: 0 35px 0 23px;*/
     border-bottom: 2px solid transparent;
     height: 41px;
@@ -22,7 +25,7 @@
     text-align: center;
 }
 .tab a{
-        color: #333;
+    color: #333;
     font-size: 14px;
     position: relative;
 }

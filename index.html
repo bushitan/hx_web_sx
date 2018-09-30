@@ -50,15 +50,27 @@
 </head>
 <body>
 
+
     <!-- 1 顶部按钮-->
-    <div class="header xx_flex">
-        <div class="xx_box xx_flex xx_end">
-            <div class="pure-g menu">
-                <div class="pure-u-1-6 move">小程序</div>
-                <div class="pure-u-1-6 move">APP</div>
-                <div class="pure-u-1-6 move">我的设置</div>
-                <div class="pure-u-1-6">|</div>
-                <div class="pure-u-1-6 father">
+    <div class="header pure-g ">
+        <div class="xx_mar_auto xx_w_1180">
+            <div class="pure-u-1 menu_list">
+                 <div class="node touch">
+                    English
+                    <ul class="header_help">
+                        <li>
+                            <a href="javascript:;">
+                                한글
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;">
+                                中文
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="node touch">
                     客户服务
                     <ul class="header_help">
                         <li>
@@ -81,7 +93,6 @@
                             <a href="javascript:;" id="toolbar-toptell" class="contact">
                                 联系在线客服
                             </a>
-
                         </li>
                         <li>
                             <a href="javascript:;">
@@ -90,39 +101,28 @@
                         </li>
                     </ul>
                 </div>
-                <div class="pure-u-1-6 father">
-                    English
-                    <ul class="header_help">
-                        <li>
-                            <a href="javascript:;">
-                                한글
-                            </a>
-                        </li>
-                        <li>
-                            <a href="javascript:;">
-                                中文
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                <div class=" node">|</div>
+                <div class=" node">我的设置</div>
+                <div class=" node">APP</div>
+                <div class=" node">小程序</div>
             </div>
         </div>
     </div>
 
 
     <!--2 搜索框-->
-    <div class="search  xx_flex xx_bg_white">
-        <div class="xx_box xx_flex  pure-g xx_between">
-            <div class="logo "> <img src="img/logo.png" alt="" width="210" height="50"></div>
-            <div class="tool ">
-                 <div class="searchBar-input-inner">
-                    <input type="text" placeholder="请输入类别 产地等搜索，例如：马尾松 广西" id="globalSearchInput" ref="globalSearchInput" maxlength="100">
-                </div>
-                <button onclick="_s.searchPage();">
-                    搜索
-                </button>
+    <div class="search  xx_bg_white pure-g">
+        <div class="xx_mar_auto ">
+            <div class="pure-u-1-3  logo">
+                <img src="img/logo.png" alt="" width="100%" height="100%">
             </div>
-            <div class="qr ">
+            <div class="pure-u-1-3 tool ">
+                <div class="pure-g ">
+                    <input type="text" placeholder="请输入类别 产地等搜索，例如：马尾松 广西" id="globalSearchInput" ref="globalSearchInput" maxlength="100">
+                    <button onclick="">搜索</button>
+                </div>
+            </div>
+            <div class="pure-u-1-3  qr">
                 <div class="title">小程序</div>
                 <img src="./找钢网_买卖钢材,上找钢网_files/ewm.png" alt=""  width="70" height="70">
                 <div class="qr_large">
@@ -130,40 +130,34 @@
                     <br> 华讯生物圈小程序
                         <img src="./找钢网_买卖钢材,上找钢网_files/ewm.png" width="130" height="130">
                 </div>
-
             </div>
         </div>
     </div>
 
-
-
-    <div class="tab  xx_flex xx_bg_white">
-        <div class="xx_box pure-g">
-             <div class="pure-u-1-6">
-                <div class="title">
-                    所有服务分类
-                </div>
-             </div>
-             <div class="pure-u-5-6">
-
-                <div class="pure-u-2-24 node"><a href="#jy">首页</a></div>
-                <div class="pure-u-2-24 node"><a href="#jy">松香网</a></div>
-                <div class="pure-u-2-24 node"><a href="#jy">活性炭网</a></div>
-                <div class="pure-u-2-24 node"><a href="#jy">酒精网</a></div>
-                <div class="pure-u-2-24 node"><a href="#jy">糠醛网</a></div>
-                <div class="pure-u-2-24 node"><a href="#jy">蓖麻油网</a></div>
-                <div class="pure-u-2-24 node"><a href="#jy">桐油网</a></div>
-                <div class="pure-u-2-24 node"><a href="#jy">香料网</a></div>
-                <div class="pure-u-2-24 node"><a href="#jy">共享实验室</a></div>
-                <div class="pure-u-3-24 node"><a href="#jy">技术转移中心</a></div>
-             </div>
+    <!--3 菜单-->
+    <div class="tab xx_bg_white pure-g">
+        <div class="xx_mar_auto ">
+            <div class="pure-u-1-2 title"> 所有服务分类</div>
+            <div class="pure-u-1-2 sub_title ">
+                <div class=" node"><a href="#jy">首页</a></div>
+                <div class=" node"><a href="#jy">松香网</a></div>
+                <div class=" node"><a href="#jy">活性炭网</a></div>
+                <div class=" node"><a href="#jy">酒精网</a></div>
+                <div class=" node"><a href="#jy">糠醛网</a></div>
+                <div class=" node"><a href="#jy">蓖麻油网</a></div>
+                <div class=" node"><a href="#jy">桐油网</a></div>
+                <div class=" node"><a href="#jy">香料网</a></div>
+                <div class=" node"><a href="#jy">共享实验室</a></div>
+                <div class=" node"><a href="#jy">技术转移中心</a></div>
+            </div>
         </div>
     </div>
 
     <!--4 轮播图-->
     <div class="swiper pure-g">
-        <div class="xx_box ">
-             <div class="pure-u-1-6 left xx_bg_white">
+        <div class="xx_mar_auto ">
+            <!--左边栏-->
+            <div class="pure-u-1-3 t_left xx_bg_white">
                 <div class="node">
                     <div class="title">服务</div>
                     <div class="pure-g content">
@@ -171,6 +165,21 @@
                         <div class="pure-u-1-3">交易</div>
                         <div class="pure-u-1-3">专利</div>
                     </div>
+                    <!--<div class="dialog pure-g">-->
+                        <!--<div class="pure-u-1-2">-->
+                            <!--<div class="name">会员</div>-->
+                            <!--<div class=" pure-g">-->
+                                <!--<div class="pure-u-1-2 ">-->
+                                    <!--<img  src="img/new.png">-->
+                                    <!--<label class="description">9月26日各地松脂价格表</label>-->
+                                <!--</div>-->
+                                <!--<div class="pure-u-1-2 description">-->
+                                     <!--<img  src="img/new.png">-->
+                                    <!--<span>9月26日各地松脂价格表</span>-->
+                                <!--</div>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</div>-->
                 </div>
                 <div class="node">
                     <div class="title">服务</div>
@@ -212,14 +221,23 @@
                         <div class="pure-u-1-3">专利</div>
                     </div>
                 </div>
-             </div>
+                <div class="node">
+                    <div class="title">服务</div>
+                    <div class="pure-g content">
+                        <div class="pure-u-1-3">会员</div>
+                        <div class="pure-u-1-3">交易</div>
+                        <div class="pure-u-1-3">专利</div>
+                    </div>
+                </div>
+            </div>
 
-
-             <div class="pure-u-1-3 center">
+            <!--中间栏-->
+            <div class="pure-u-1-3 t_center xx_bg_white ">
                  <img src="img/cover.jpg"   width="100%" height="100%" />
-             </div>
-             <div class="pure-u-1-3 right xx_bg_white" >
-                 <div class="hi">
+            </div>
+            <!--右边栏-->
+            <div class="pure-u-1-3 t_right xx_bg_white">
+                <div class="hi">
                      Hi，欢迎来到华讯松香网
                  </div>
                  <div class="pure-g">
@@ -239,7 +257,7 @@
                     </div>
                 </div>
 
-                 <div class="icon pure-g">
+                 <div class="icon pure-g xx_border_gray">
                      <div class="pure-u-1-3" >
                         <img src="img/1.png" width="23" height="23"/><div>发布求购</div>
                      </div>
@@ -267,115 +285,81 @@
                      <div class="pure-u-1-3" >
                         <img src="img/9.png" width="23" height="23"/><div>看资讯</div>
                      </div>
-
                  </div>
-             </div>
+            </div>
         </div>
     </div>
 
 
-    <!--5 广告-->
-    <div class="summary  pure-g">
-        <div class="xx_box xx_flex xx_between xx_border_gray">
-            <div class="title">
+
+    <!--6 目录-->
+    <div class="category  pure-g xx_border_gray">
+        <div class="xx_mar_auto xx_w_1180">
+            <div class="pure-u-1-2 title">
                 交易
             </div>
-            <div class=" sub_title xx_flex">
-                  <div class="select ">会员</div>
-                  <div class="">交易</div>
-                  <div class="">专利</div>
-                  <div class="">会务</div>
-                  <div class="">小程序</div>
-                  <div class="">供应链</div>
-            </div>
-        </div>
-        </div>
-    </div>
-
-
-
-    <!--4 新闻-->
-    <div class="news  pure-g">
-        <div class="xx_box">
-             <div class="pure-u-6-24 left xx_bg_white" >
-                 <div class="artilce">
-                     <div class="title"> 速递 价格 数据</div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                 </div>
-             </div>
-             <div class="pure-u-12-24 center " >
-                <div class="hot xx_bg_white">
-                    <!--<div class="content">-->
-                        <div class="pure-g title">
-                            <div class="pure-u-1"><span class="mark" > <span>专题</span></span>2017年松香企业大盘点</div>
-                            <div class="pure-u-1"><span class="mark" > <span>专题</span></span>2017年松香企业大盘点</div>
-                            <div class="pure-u-1"><span class="mark" > <span>专题</span></span>2017年松香企业大盘点</div>
-                        </div>
-                        <div class="pure-g content">
-                            <div class="pure-u-1-2 ">[价格]4月14日松香21价格价格]4月14日松香21价格价格]4月14日松香21价格表</div>
-                            <div class="pure-u-1-2 ">[价格]4月14日松香21价格价格]4月14日松香21价格价格]4月14日松香21价格表</div>
-                            <div class="pure-u-1-2 ">[价格]4月14日松香21价格价格]4月14日松香21价格价格]4月14日松香21价格表</div>
-                            <div class="pure-u-1-2 ">[价格]4月14日松香21价格价格]4月14日松香21价格价格]4月14日松香21价格表</div>
-                            <div class="pure-u-1-2 ">[价格]4月14日松香21价格价格]4月14日松香21价格价格]4月14日松香21价格表</div>
-                            <div class="pure-u-1-2 ">[价格]4月14日松香21价格价格]4月14日松香21价格价格]4月14日松香21价格表</div>
-                        </div>
-                </div>
-             </div>
-             <div class="pure-u-6-24 right xx_bg_white" >
-                 <div class="xx_pd_15">
-                    <img src="img/zhishu.png" width="100%" height="100%" />
-                 </div>
-             </div>
-        </div>
-    </div>
-
-
-    <!--5 广告-->
-    <div class="ad  pure-g">
-        <div class="xx_box pure-g">
-            <div class="content">
-                <div class="xx_bg_white xx_pd_15 base_1_3">
-                    <img src="http://www.rosin-china.com/_m/cache/d9/82/d982102bfb0e3e0f54d7cd7d0d514ba2.jpg" width="100%" height="100%" />
-                </div>
-                <div class="xx_bg_white xx_pd_15 base_1_3">
-                    <img src="http://www.rosin-china.com/_m/cache/d9/82/d982102bfb0e3e0f54d7cd7d0d514ba2.jpg" width="100%" height="100%" />
-                </div>
-                <div class="xx_bg_white xx_pd_15 base_1_3">
-                    <img src="http://www.rosin-china.com/_m/cache/d9/82/d982102bfb0e3e0f54d7cd7d0d514ba2.jpg" width="100%" height="100%" />
-                </div>
+            <div class="pure-u-1-2">
+                  <div class="sub_title">会员</div>
+                  <div class="sub_title">交易</div>
+                  <div class="sub_title">专利</div>
+                  <div class="sub_title">会务</div>
+                  <div class="sub_title">小程序</div>
+                  <div class="select sub_title">供应链</div>
             </div>
         </div>
     </div>
 
-
-    <!--5 广告-->
-    <div class="summary  pure-g">
-        <div class="xx_box xx_flex xx_between xx_border_gray">
-            <div class="title">
-                交易
+    <!--5 新闻-->
+    <div class="news  pure-g ">
+        <div class="xx_mar_auto ">
+            <div class="pure-u-1-3 xx_w_280 xx_h_206  xx_bg_white">
+                <div class="xx_pd_15">
+                     <div class="title"> 速递 价格 数据</div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                </div>
             </div>
-            <div class=" sub_title xx_flex">
-                  <div class="select ">会员</div>
-                  <div class="">交易</div>
-                  <div class="">专利</div>
-                  <div class="">会务</div>
-                  <div class="">小程序</div>
-                  <div class="">供应链</div>
+            <div class="pure-u-1-3 xx_w_580 xx_h_206 xx_mar_lr_20 t_hot xx_bg_white">
+                <div class="xx_pd_15">
+                    <div class="title">
+                        <div class=""><span class="mark" > <span>专题</span></span>2017年松香企业大盘点</div>
+                        <div class=""><span class="mark" > <span>专题</span></span>2017年松香企业大盘点</div>
+                        <div class=""><span class="mark" > <span>专题</span></span>2017年松香企业大盘点</div>
+                    </div>
+                    <div class="pure-g content">
+                        <div class="pure-u-1-2 ">[价格]4月14日松香21价格价格]4月14日松香21价格价格]4月14日松香21价格表</div>
+                        <div class="pure-u-1-2 ">[价格]4月14日松香21价格价格]4月14日松香21价格价格]4月14日松香21价格表</div>
+                        <div class="pure-u-1-2 ">[价格]4月14日松香21价格价格]4月14日松香21价格价格]4月14日松香21价格表</div>
+                        <div class="pure-u-1-2 ">[价格]4月14日松香21价格价格]4月14日松香21价格价格]4月14日松香21价格表</div>
+                        <div class="pure-u-1-2 ">[价格]4月14日松香21价格价格]4月14日松香21价格价格]4月14日松香21价格表</div>
+                        <div class="pure-u-1-2 ">[价格]4月14日松香21价格价格]4月14日松香21价格价格]4月14日松香21价格表</div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <!--7 资讯文章-->
-    <div class="news  pure-g">
-        <div class="xx_box xx_flex xx_between">
-             <div class="w_1_3  xx_bg_white node" >
-                 <div class="space">
+            <div class="pure-u-1-3 xx_w_280 xx_h_206 xx_bg_white">
+                    <div class="xx_pd_15">
                      <div class="title"> 速递 价格 数据</div>
                      <div class="content">
                          <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
@@ -401,170 +385,203 @@
                          <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
                          <span>04-12</span>
                      </div>
-                 </div>
-             </div>
-             <div class="w_1_3  xx_bg_white node" >
-                 <div class="space">
-                     <div class="title"> 速递 价格 数据</div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                 </div>
-             </div>
-             <div class="w_1_3  xx_bg_white  node" >
-                 <div class="space">
-                     <div class="title"> 速递 价格 数据</div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                 </div>
-             </div>
-        </div>
-    </div>
-    <!--7 资讯文章-->
-    <div class="news  pure-g">
-        <div class="xx_box xx_flex xx_between">
-             <div class="w_1_3  xx_bg_white node" >
-                 <div class="space">
-                     <div class="title"> 速递 价格 数据</div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                 </div>
-             </div>
-             <div class="w_1_3  xx_bg_white node" >
-                 <div class="space">
-                     <div class="title"> 速递 价格 数据</div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                 </div>
-             </div>
-             <div class="w_1_3  xx_bg_white  node" >
-                 <div class="space">
-                     <div class="title"> 速递 价格 数据</div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                     <div class="content">
-                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
-                         <span>04-12</span>
-                     </div>
-                 </div>
-             </div>
+                </div>
+            </div>
+
         </div>
     </div>
 
-
-    <!--5 广告-->
-    <div class="ad  pure-g">
-        <div class="xx_box pure-g">
-            <div class="content">
-                <div class="xx_bg_white xx_pd_15 base_1_4">
-                    <img src="http://www.rosin-china.com/_m/cache/d9/82/d982102bfb0e3e0f54d7cd7d0d514ba2.jpg" width="100%" height="100%" />
+    <!--5 广告 3列-->
+    <div class="ad  pure-g xx_mar_t_20">
+        <div class="xx_mar_auto ">
+            <div class="pure-u-1-3 xx_w_380 xx_h_120  xx_bg_white">
+                <div class="xx_pd_15" >
+                    <img src="http://www.rosin-china.com/_m/cache/d9/82/d982102bfb0e3e0f54d7cd7d0d514ba2.jpg" width="100%" height="90" />
                 </div>
-                <div class="xx_bg_white xx_pd_15 base_1_4">
-                    <img src="http://www.rosin-china.com/_m/cache/d9/82/d982102bfb0e3e0f54d7cd7d0d514ba2.jpg" width="100%" height="100%" />
+            </div>
+            <div class="pure-u-1-3 xx_w_380 xx_h_120  xx_bg_white xx_mar_lr_20">
+                <div class="xx_pd_15" >
+                    <img src="http://www.rosin-china.com/_m/cache/d9/82/d982102bfb0e3e0f54d7cd7d0d514ba2.jpg" width="100%" height="90" />
                 </div>
-                <div class="xx_bg_white xx_pd_15 base_1_4">
-                    <img src="http://www.rosin-china.com/_m/cache/d9/82/d982102bfb0e3e0f54d7cd7d0d514ba2.jpg" width="100%" height="100%" />
-                </div>
-                <div class="xx_bg_white xx_pd_15 base_1_4">
-                    <img src="http://www.rosin-china.com/_m/cache/d9/82/d982102bfb0e3e0f54d7cd7d0d514ba2.jpg" width="100%" height="100%" />
+            </div>
+            <div class="pure-u-1-3 xx_w_380 xx_h_120  xx_bg_white">
+                <div class="xx_pd_15" >
+                    <img src="http://www.rosin-china.com/_m/cache/d9/82/d982102bfb0e3e0f54d7cd7d0d514ba2.jpg" width="100%" height="90" />
                 </div>
             </div>
         </div>
     </div>
+
+    <!--5 广告 4列-->
+    <div class="ad  pure-g xx_mar_t_20">
+        <div class="xx_mar_auto ">
+            <div class="pure-u-1-4 xx_w_280 xx_h_120  xx_bg_white">
+                <div class="xx_pd_15" >
+                    <img src="http://www.rosin-china.com/_m/cache/d9/82/d982102bfb0e3e0f54d7cd7d0d514ba2.jpg" width="100%" height="90" />
+                </div>
+            </div>
+            <div class="pure-u-1-4 xx_w_280 xx_h_120  xx_bg_white xx_mar_lr_20">
+                <div class="xx_pd_15" >
+                    <img src="http://www.rosin-china.com/_m/cache/d9/82/d982102bfb0e3e0f54d7cd7d0d514ba2.jpg" width="100%" height="90" />
+                </div>
+            </div>
+            <div class="pure-u-1-4 xx_w_280 xx_h_120  xx_bg_white xx_mar_r_20">
+                <div class="xx_pd_15" >
+                    <img src="http://www.rosin-china.com/_m/cache/d9/82/d982102bfb0e3e0f54d7cd7d0d514ba2.jpg" width="100%" height="90" />
+                </div>
+            </div>
+            <div class="pure-u-1-4 xx_w_280 xx_h_120  xx_bg_white">
+                <div class="xx_pd_15" >
+                    <img src="http://www.rosin-china.com/_m/cache/d9/82/d982102bfb0e3e0f54d7cd7d0d514ba2.jpg" width="100%" height="90" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--5 新闻-->
+    <div class="news  pure-g xx_mar_t_20">
+        <div class="xx_mar_auto ">
+            <div class="pure-u-1-3 xx_w_380 xx_h_206  xx_bg_white">
+                <div class="xx_pd_15">
+                     <div class="title"> 速递 价格 数据</div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                </div>
+            </div>
+            <div class="pure-u-1-3 xx_w_380 xx_h_206 xx_mar_lr_20 xx_bg_white">
+                <div class="xx_pd_15">
+                     <div class="title"> 速递 价格 数据</div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                </div>
+            </div>
+            <div class="pure-u-1-3 xx_w_380 xx_h_206 xx_bg_white">
+                <div class="xx_pd_15">
+                     <div class="title"> 速递 价格 数据</div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                     <div class="content">
+                         <label>[价格]4月14日松香21价格价格]4月14日松香21表 </label>
+                         <span>04-12</span>
+                     </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
 
     <!--底部-->
-    <div class="footer  xx_border_gray">
-        <div class="xx_box ">
-            <div class="advantage xx_flex">
-                <div>华讯行业网</div>
-                <div>松香网</div>
-                <div>华讯通</div>
-                <div>华讯通</div>
-                <div>华讯通</div>
-                <div>华讯通</div>
-                <div>华讯通</div>
-                <div>华讯通</div>
-            </div>
-            <div class="des xx_flex">
-                <div>集团简介</div>
-                <div>|</div>
-                <div>关于本网</div>
-                <div>|</div>
-                <div>企业文化</div>
-                <div>|</div>
-                <div>联系我们</div>
-                <div>|</div>
-                <div>诚聘英才</div>
-                <div>|</div>
-                <div>本网导航</div>
-                <div>|</div>
-                <div>免责声明</div>
-                <div>|</div>
-                <div>ENGLISH</div>
-            </div>
-
-            <div class="des xx_flex">
-                <div>Copyright © 2000-2018 Sinoinfo Ecommerce Inc. All rights reserved</div>
-            </div>
-            <div class="des xx_flex">
-                <div>广西华讯信息技术股份有限公司版权所有</div>
-            </div>
-            <div class="des xx_flex">
-                <div>备案号: 桂ICP备15007906号-11 桂公网安备 45010302000299号</div>
-            </div>
-            <div class="des xx_flex">
-                <div>电话：0771-5553301 传真：0771-5553302</div>
-            </div>
-            <div class="des xx_flex">
-                <div>网址：www.rosin-china.com 邮箱：rosin@rosin-china.com</div>
-            </div>
+    <div class="footer  pure-g xx_mar_t_20 xx_border_gray">
+        <div class="xx_mar_auto pure-u-1 title">
+            <a>华讯行业网</a>
+            <a>松香网</a>
+            <a>华讯通</a>
+            <a>华讯通</a>
+            <a>华讯通</a>
+            <a>华讯通</a>
+            <a>华讯通</a>
+            <a>华讯通</a>
         </div>
+        <div class="xx_mar_auto pure-u-1 content">
+            <a>集团简介</a>
+            <a>|</a>
+            <a>关于本网</a>
+            <a>|</a>
+            <a>企业文化</a>
+            <a>|</a>
+            <a>联系我们</a>
+            <a>|</a>
+            <a>诚聘英才</a>
+            <a>|</a>
+            <a>本网导航</a>
+            <a>|</a>
+            <a>免责声明</a>
+            <a>|</a>
+            <a>ENGLISH</a>
+        </div>
+        <div class="xx_mar_auto pure-u-1 content">
+            <a>Copyright © 2000-2018 Sinoinfo Ecommerce Inc. All rights reserved</a>
+        </div>
+        <div class="xx_mar_auto pure-u-1 content">
+            <a>广西华讯信息技术股份有限公司版权所有</a>
+        </div>
+        <div class="xx_mar_auto pure-u-1 content">
+            <a>备案号: 桂ICP备15007906号-11 桂公网安备 45010302000299号</a>
+        </div>
+        <div class="xx_mar_auto pure-u-1 content">
+            <a>电话：0771-5553301 传真：0771-5553302</a>
+        </div>
+        <div class="xx_mar_auto pure-u-1 content">
+            <a>网址：www.rosin-china.com 邮箱：rosin@rosin-china.com</a>
+        </div>
+
     </div>
-
-
-
-
 
 
 

@@ -1,74 +1,62 @@
 
-
-
-
-
-.xx_bound{
-    width: 1180px;
-    margin: auto;
-}
-
-
-
 .news {
-    padding-top: 10px;
+    /*padding-top: 10px;*/
 }
 
-.news .left,.news .center,.news .right ,.news .hot{
-    min-height: 206px;
+
+.news .t_hot{
+
 }
 
-.news .artilce{
-    width: 255px;
-    margin: auto;
-    padding: 10px;
-}
-
+/*单个文章*/
 .news .title{
-    line-height: 30px;
-    font-size: 15pt;
+    line-height: 26px;
     font-weight: bolder;
+    font-size: 1em;
 }
 .news .content{
-    display: flex;
-    justify-content: space-between;
-
+    /*display: flex;*/
+    /*justify-content: space-between;*/
     font-size: 0.75em;
     line-height: 25px;
 }
 .news .content label{
-    flex-basis: 170px;
+    /*flex-basis: 170px;*/
+    float: left;
+    width: 170px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-
-
-.news .hot{
-   width: 570px;
-    margin: auto;
+.news .content span{
+    float: right;
 }
 
-.news .hot .title{
-    font-size: 1em;
-    padding:15px 15px 5px;
+/*中间栏*/
+.news .t_hot .title{
+    line-height: 30px;
+    padding:2px 0 8px;
 }
-
 .news .mark{
     color:#fff;
     background-color:#f6ab00 ;
     padding: 3px 5px;
     margin: 5px;
 }
-.news .hot .content{
-    padding:5px 15px 15px;
-}
-.news .hot .content div{
+.news .t_hot .content div{
+    width: 250px;
+    margin:0 12px;
     font-size: 0.75em;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+
+
+
+
+
 
 .news .ad{
     padding:15px;

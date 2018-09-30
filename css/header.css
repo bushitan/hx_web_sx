@@ -3,20 +3,27 @@
     background: #e7e7e7;
     position: relative;
 }
-
-.header .menu {
-    width: 400px;
+.menu_list{
     height: auto;
     color: #666;
-    line-height:30px;
+    line-height: 30px;
     cursor: pointer;
-    padding: 0 15px 0 10px;
     font-size: 0.75em;
-    text-align: center;
-
+    /*text-align: center;*/
 }
-.header .menu .move:hover {background:#fff;}
-.header .father:hover .header_help{    display:block ;}
+.header .node{
+    /*width: 60px;*/
+    padding: 0 15px;
+    float: right;
+    text-align: center;
+}
+.header .node:hover {background:#fff;}
+.header .touch:hover .header_help{    display:block ;}
+
+.header .touch{
+    position: relative;
+}
+
 .header_help {
     display: none;
     position: absolute;
@@ -33,9 +40,6 @@
      min-width: 88px;
     max-height: 165px;
     overflow: auto;
-}
-.header .father{
-    position: relative;
 }
 
 .header_help li {
@@ -60,6 +64,3 @@
 }
 
 
-/*.btn_help:hover .help{*/
-    /*display:block ;*/
-/*}*/

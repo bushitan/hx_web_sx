@@ -16,35 +16,23 @@ body{
     background-color: #f0f3ef ;
     font-family: Arial,'Hiragino Sans GB',"Microsoft Yahei","Î¢ÈíÑÅºÚ",Tahoma,Helvetica,STHeiti;
 }
-.xx_flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.xx_box{
-    width: 1180px;
-    margin: auto;
-    /*width: 1180px;*/
-    /*height: auto;*/
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*position: relative;*/
-}
-.xx_end{
-    justify-content: flex-end;
-}
-.xx_between{
-    justify-content: space-between;
-}
+.xx_bg_white{    background-color: #fff;}
 
-.xx_bg_white{
-    background-color: #fff;
-}
+.xx_pd_15{    padding:15px;}
 
-.xx_pd_15{
-    padding:15px;
-}
 
-.xx_border_gray{
-    border-top:1px solid #DFDFDF;
-}
+.xx_mar_auto{    margin: auto;}
+.xx_mar_20{    margin: 20px;}
+.xx_mar_lr_20{    margin: 0 20px;}
+.xx_mar_r_20{    margin-right: 20px;}
+.xx_mar_t_20{    margin-top: 20px;}
+.xx_mar_b_20{    margin-bottom:20px;}
+
+.xx_border_gray{    border-top:1px solid #DFDFDF;}
+
+.xx_w_1180{    width: 1180px;}
+.xx_w_580{    width: 580px;}
+.xx_w_380{    width: 380px;}
+.xx_w_280{    width: 280px;}
+.xx_h_206{    height: 206px;}
+.xx_h_120{    height: 120px;}

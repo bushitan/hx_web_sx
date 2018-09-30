@@ -1,28 +1,29 @@
 
 
 .search{
-    padding-top: 5px;
+    /*padding-top: 5px;*/
 }
 .search .logo{
-    flex-basis: 210px;
+    width: 220px;
+    padding-top: 15px;
 }
+
 .search .tool{
-    /*width: 520px;*/
-    /*height: 400px;*/
-    /*margin: 40px auto 0;*/
-    display: flex;
+    width: 890px;
+    padding-top: 25px;
 }
 .search input {
     width: 420px;
-    height: 36px;
+    line-height: 36px;
     padding: 0 10px;
+    margin-left: 120px;
     outline: none;
     border: 2px solid #f6ab00;
     font-size:0.8em;
 }
 .search button {
-    /*float: left;*/
     width: 90px;
+    line-height: 36px;
     border: 0;
     color: #fff;
     font-size: 14px;
@@ -31,6 +32,7 @@
     background: #f6ab00;
 }
 .search .qr {
+    width: 70px;
     position: relative;
 }
 .search .qr .title{

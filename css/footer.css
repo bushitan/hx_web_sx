@@ -2,17 +2,22 @@
 
 .footer {
     padding:15px;
-    letter-spacing: 0em !important;
+    text-align: center;
 }
-
-.footer .advantage div{
+.footer .title {
+    padding: 30px;
+}
+.footer .title a{
     font-size: 1.15em;
     padding: 30px 35px;
-    /*display: ;*/
 }
-
-.footer .des  div{
+.footer .content{
+    padding-bottom: 10px;
+}
+.footer .content a{
     color: #888;
     padding: 8px 5px;
     font-size: 0.5em;
 }
+
+
