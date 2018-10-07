@@ -21,17 +21,22 @@ body{
 
 .xx_pd_15{    padding:15px;}
 
+.xx_pd_r_20{
+    padding-right: 20px;}
+
 
 .xx_mar_auto{    margin: auto;}
 .xx_mar_20{    margin: 20px;}
 .xx_mar_lr_20{    margin: 0 20px;}
 .xx_mar_r_20{    margin-right: 20px;}
+.xx_mar_r_40{    margin-right: 40px;}
 .xx_mar_t_20{    margin-top: 20px;}
 .xx_mar_b_20{    margin-bottom:20px;}
 
 .xx_border_gray{    border-top:1px solid #DFDFDF;}
 
 .xx_w_1180{    width: 1180px;}
+.xx_w_780{    width: 780px;}
 .xx_w_580{    width: 580px;}
 .xx_w_380{    width: 380px;}
 .xx_w_280{    width: 280px;}
