@@ -1,25 +1,59 @@
 
 .news {
     /*padding-top: 10px;*/
+    margin-top: 20px;
 }
 
-
-.news .t_hot{
-
-}
-
-/*单个文章*/
-.news .title{
+/*普通模块*/
+.news  .title{
     line-height: 26px;
     font-size: 1em;
 }
-/*单个文章*/
-.news .title span{
-    margin-right: 10px;
-}
-.news .title .select{
+.news  .title .select{
     font-weight: bolder;
 }
+
+
+/*热点新闻*/
+/*.news .t_hot{*/
+
+/*}*/
+
+.news .t_hot .title{
+    line-height: 26px;
+    font-size: 1em;
+}
+.news .t_hot .title span{
+    /*margin-right: 10px;*/
+}
+.news .t_hot .title .select{
+    font-weight: bolder;
+}
+
+
+
+/*交易模块*/
+.news .trade .title{
+    padding: 15px 15px 0;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 25px;
+}
+
+.news .trade .content{
+    padding: 0 15px ;
+    font-size: 0.8em;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+
+
+
+
+
+
 
 .news .special{
 

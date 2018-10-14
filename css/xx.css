@@ -12,12 +12,16 @@ a, img {
     text-decoration: none;
 }
 body{
+    min-width:1280px;
+    /*width:1280px;*/
     margin: 0;
     padding: 0;
     background-color: #f0f3ef ;
     font-family: Arial,'Hiragino Sans GB',"Microsoft Yahei","Î¢ÈíÑÅºÚ",Tahoma,Helvetica,STHeiti;
 }
 .xx_bg_white{    background-color: #fff;}
+.xx_bg_yellow{   background-color:#f6ab00 ; }
+
 
 .xx_pd_15{    padding:15px;}
 
